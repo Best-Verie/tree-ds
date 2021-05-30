@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/DELL/OneDrive/Documents/Year2/DSA/queue/untitled/insertion.cpp
+iostream
+-
+insertion.h
+C:/Users/DELL/OneDrive/Documents/Year2/DSA/queue/untitled/insertion.h
+
+C:/Users/DELL/OneDrive/Documents/Year2/DSA/queue/untitled/insertion.h
+cstdio
+-
+iostream
+-
+
