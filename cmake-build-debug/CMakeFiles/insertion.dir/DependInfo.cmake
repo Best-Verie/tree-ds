@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/DELL/OneDrive/Documents/Year2/DSA/queue/untitled/insertion.cpp" "C:/Users/DELL/OneDrive/Documents/Year2/DSA/queue/untitled/cmake-build-debug/CMakeFiles/insertion.dir/insertion.cpp.obj"
+  "C:/Users/DELL/OneDrive/Documents/Year2/DSA/tree-ds/insertion.cpp" "C:/Users/DELL/OneDrive/Documents/Year2/DSA/tree-ds/cmake-build-debug/CMakeFiles/insertion.dir/insertion.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

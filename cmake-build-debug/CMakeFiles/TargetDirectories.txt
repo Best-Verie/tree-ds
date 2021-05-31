@@ -1,3 +1,4 @@
-C:/Users/DELL/OneDrive/Documents/Year2/DSA/queue/untitled/cmake-build-debug/CMakeFiles/insertion.dir
-C:/Users/DELL/OneDrive/Documents/Year2/DSA/queue/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/DELL/OneDrive/Documents/Year2/DSA/queue/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/DELL/OneDrive/Documents/Year2/DSA/tree-ds/cmake-build-debug/CMakeFiles/insertion.dir
+C:/Users/DELL/OneDrive/Documents/Year2/DSA/tree-ds/cmake-build-debug/CMakeFiles/all_operations.dir
+C:/Users/DELL/OneDrive/Documents/Year2/DSA/tree-ds/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/DELL/OneDrive/Documents/Year2/DSA/tree-ds/cmake-build-debug/CMakeFiles/rebuild_cache.dir

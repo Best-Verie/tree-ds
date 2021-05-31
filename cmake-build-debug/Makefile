@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\DELL\OneDrive\Documents\Year2\DSA\queue\untitled
+CMAKE_SOURCE_DIR = C:\Users\DELL\OneDrive\Documents\Year2\DSA\tree-ds
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\DELL\OneDrive\Documents\Year2\DSA\queue\untitled\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\DELL\OneDrive\Documents\Year2\DSA\tree-ds\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\DELL\OneDrive\Documents\Year2\DSA\queue\untitled\cmake-build-debug\CMakeFiles C:\Users\DELL\OneDrive\Documents\Year2\DSA\queue\untitled\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\DELL\OneDrive\Documents\Year2\DSA\tree-ds\cmake-build-debug\CMakeFiles C:\Users\DELL\OneDrive\Documents\Year2\DSA\tree-ds\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\DELL\OneDrive\Documents\Year2\DSA\queue\untitled\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\DELL\OneDrive\Documents\Year2\DSA\tree-ds\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,6 +142,19 @@ insertion/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\insertion.dir\build.make CMakeFiles/insertion.dir/build
 .PHONY : insertion/fast
 
+#=============================================================================
+# Target rules for targets named all_operations
+
+# Build rule for target.
+all_operations: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all_operations
+.PHONY : all_operations
+
+# fast build rule for target.
+all_operations/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\all_operations.dir\build.make CMakeFiles/all_operations.dir/build
+.PHONY : all_operations/fast
+
 insertion.obj: insertion.cpp.obj
 
 .PHONY : insertion.obj
@@ -169,6 +182,33 @@ insertion.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\insertion.dir\build.make CMakeFiles/insertion.dir/insertion.cpp.s
 .PHONY : insertion.cpp.s
 
+treeOperations.obj: treeOperations.cpp.obj
+
+.PHONY : treeOperations.obj
+
+# target to build an object file
+treeOperations.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\all_operations.dir\build.make CMakeFiles/all_operations.dir/treeOperations.cpp.obj
+.PHONY : treeOperations.cpp.obj
+
+treeOperations.i: treeOperations.cpp.i
+
+.PHONY : treeOperations.i
+
+# target to preprocess a source file
+treeOperations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\all_operations.dir\build.make CMakeFiles/all_operations.dir/treeOperations.cpp.i
+.PHONY : treeOperations.cpp.i
+
+treeOperations.s: treeOperations.cpp.s
+
+.PHONY : treeOperations.s
+
+# target to generate assembly for a file
+treeOperations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\all_operations.dir\build.make CMakeFiles/all_operations.dir/treeOperations.cpp.s
+.PHONY : treeOperations.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -177,10 +217,14 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... all_operations
 	@echo ... insertion
 	@echo ... insertion.obj
 	@echo ... insertion.i
 	@echo ... insertion.s
+	@echo ... treeOperations.obj
+	@echo ... treeOperations.i
+	@echo ... treeOperations.s
 .PHONY : help
 
 

@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/DELL/OneDrive/Documents/Year2/DSA/queue/untitled/insertion.cpp
+C:/Users/DELL/OneDrive/Documents/Year2/DSA/tree-ds/insertion.cpp
 iostream
 -
-insertion.h
-C:/Users/DELL/OneDrive/Documents/Year2/DSA/queue/untitled/insertion.h
+Insertion.h
+C:/Users/DELL/OneDrive/Documents/Year2/DSA/tree-ds/insertion.h
 
-C:/Users/DELL/OneDrive/Documents/Year2/DSA/queue/untitled/insertion.h
-cstdio
--
+C:/Users/DELL/OneDrive/Documents/Year2/DSA/tree-ds/insertion.h
 iostream
 -
 
